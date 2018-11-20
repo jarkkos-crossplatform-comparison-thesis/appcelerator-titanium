@@ -2,14 +2,30 @@
 	backgroundColor:"white"
 }
 
+".header": {
+	left: 16,
+	right: 16,
+	top: 8,
+	bottom: 16 
+}
+
+".row": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+
+".size": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+".widebutton": {
+	width: "70%",
+	top: 16
+}
+
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
-}
-
-"#label": {
-	font: {
-		fontSize: 12
-	}
 }

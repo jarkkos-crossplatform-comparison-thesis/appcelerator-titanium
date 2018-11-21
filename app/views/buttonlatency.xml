@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" class="row">
+			<Button class="widebutton" id="incrementCounterBtn">Click me!</Button>
+			<Label id="counterLabel">Counter</Label>
+		</View>
+	</Window>
+</Alloy>

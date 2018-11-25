@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<ScrollView id="scroller" layout="vertical">
+		<ScrollView id="scroller" layout="vertical" scrollType="vertical">
 			<View layout="horizontal" class="row header">
 				<ImageView image="/images/appicon.png" width="25%" height="Ti.UI.SIZE" />
 				<View layout="vertical" class="size" width="50%">
@@ -12,7 +12,7 @@
 			</View>
 
 			<View layout="vertical" class="row">
-				<Button onClick="doClick" class="widebutton" id="openButtonLatencyBtn">Button latency</Button>
+				<Button class="widebutton" id="openButtonLatencyBtn">Button latency</Button>
 				<Button class="widebutton" id="openLocalListView">Local listview</Button>
 				<Button class="widebutton" id="openNetworkListView">Network listview</Button>
 				<Button class="widebutton" id="openHeavyComputationBtn">Heavy computation</Button>

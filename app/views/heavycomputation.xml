@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" class="row">
+			<Button class="widebutton" id="startComputationBtn">Click me!</Button>
+			<Label id="statusLabel">Click to start</Label>
+			<ActivityIndicator id="activityIndicator"></ActivityIndicator>
+		</View>
+	</Window>
+</Alloy>

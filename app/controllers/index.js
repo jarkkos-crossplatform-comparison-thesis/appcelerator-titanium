@@ -38,7 +38,7 @@ $.openNetworkListView.addEventListener("touchstart", function() {
 });
 
 $.openHeavyComputationBtn.addEventListener("touchstart", function() {
-	openView("notimplemented");
+	openView("heavycomputation");
 });
 
 $.openVibrationLatencyBtn.addEventListener("touchstart", function() {

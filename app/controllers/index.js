@@ -1,5 +1,5 @@
-function openView(viewName) {
-	const vc = Alloy.createController(viewName);
+function openView(viewName, args) {
+	const vc = Alloy.createController(viewName, args);
 	const w = vc.getView();
 	
 	if (OS_ANDROID) {
@@ -30,11 +30,14 @@ $.openButtonLatencyBtn.addEventListener("touchstart", function() {
 });
 
 $.openLocalListView.addEventListener("touchstart", function() {
-	openView("notimplemented");
+	const localLoader = require("listDataLoaders").local;
+	openView("listitems", { loadPromiseCreator: localLoader });
 });
 
 $.openNetworkListView.addEventListener("touchstart", function() {
-	openView("notimplemented");
+	const loaders = require("listDataLoaders");
+	console.log(loaders);
+	openView("listitems", { loadPromiseCreator: loaders.network });
 });
 
 $.openHeavyComputationBtn.addEventListener("touchstart", function() {

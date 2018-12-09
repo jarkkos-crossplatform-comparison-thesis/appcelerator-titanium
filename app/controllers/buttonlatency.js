@@ -17,5 +17,10 @@ function incrementCounter() {
 
 $.noAnimationBack.addEventListener("touchstart", handleNoAnimationBack);
 function handleNoAnimationBack(e) {
-    $.window.close({animated: false});
+	if (OS_ANDROID) {
+   		$.window.close({animated: false});
+	}
+	else if (OS_IOS) {
+		Alloy.Globals.navwindow.closeWindow($.window, { animated: false });
+	}
 }

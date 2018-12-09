@@ -1,4 +1,5 @@
 <Alloy>
+	<NavigationWindow id="navigation" platform="ios">
 	<Window class="container">
 		<ScrollView id="scroller" layout="vertical">
 			<View layout="horizontal" class="row header">
@@ -21,4 +22,5 @@
 			</View>
 		</ScrollView>
 	</Window>
+	</NavigationWindow>
 </Alloy>

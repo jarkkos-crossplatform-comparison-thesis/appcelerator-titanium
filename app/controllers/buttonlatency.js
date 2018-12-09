@@ -14,3 +14,8 @@ function incrementCounter() {
 	counter++;
 	updateCounter();
 }
+
+$.noAnimationBack.addEventListener("touchstart", handleNoAnimationBack);
+function handleNoAnimationBack(e) {
+    $.window.close({animated: false});
+}

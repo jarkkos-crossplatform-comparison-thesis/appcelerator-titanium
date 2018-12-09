@@ -1,5 +1,8 @@
 <Alloy>
-	<Window class="container">
+	<Window id="window" class="container">
+		<View layout="vertical">
+			<Button id="noAnimationBack">Back without animation</Button>
+		</View>
 		<View layout="vertical" class="row">
 			<Button class="widebutton" id="incrementCounterBtn">Click me!</Button>
 			<Label id="counterLabel">Counter</Label>

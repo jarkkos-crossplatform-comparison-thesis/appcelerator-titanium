@@ -1,4 +1,4 @@
-function openView(viewName, args) {
+function openView(viewName, args) {	
 	const vc = Alloy.createController(viewName, args);
 	const w = vc.getView();
 	
@@ -20,9 +20,11 @@ function openView(viewName, args) {
 		w.addEventListener("androidback", function() {
             w.close({animated: false});
 		});
+		w.open({animated: false});
 	}
-	
-	w.open({animated: false});
+	else if (OS_IOS) {
+		$.navigation.openWindow(w, { animated: false });
+	}
 }
 
 $.openButtonLatencyBtn.addEventListener("touchstart", function() {
@@ -52,5 +54,9 @@ $.openThirdPartyNoticesBtn.addEventListener("touchstart", function() {
 	openView("notimplemented");
 });
 
-
-$.index.open();
+if (OS_ANDROID) {
+	$.index.open();
+}
+else if (OS_IOS) {
+	$.navigation.open();
+}

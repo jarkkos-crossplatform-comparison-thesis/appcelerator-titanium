@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="window" class="container">
+		<View layout="vertical" class="horizontalMargin">
+			<View layout="vertical" class="row topMargin">
+				<Label class="noticeTitle">Titanium</Label>
+				<Label class="noticeText">Appcelerator</Label>
+				<Label class="noticeText">https://www.appcelerator.com/</Label>
+			</View>
+			<View layout="vertical" class="row topMargin">
+				<Label class="noticeTitle">Listview images from Caltech 101 dataset</Label>
+				<Label class="noticeText">L. Fei-Fei, R. Fergus and P. Perona. Learning generative visual models from few training examples: an incremental Bayesian approach tested on 101 object categories. IEEE. CVPR 2004, Workshop on Generative-Model Based Vision. 2004
+	</Label>
+			</View>
+			<View layout="vertical" class="row topMargin">
+				<Label class="noticeTitle">Placeholder texts generated at https://www.lipsum.com/</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

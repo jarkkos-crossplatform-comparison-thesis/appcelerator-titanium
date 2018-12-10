@@ -51,7 +51,7 @@ $.openVibrationLatencyBtn.addEventListener("touchstart", function() {
 });
 
 $.openThirdPartyNoticesBtn.addEventListener("touchstart", function() {
-	openView("notimplemented");
+	openView("thirdpartynotices");
 });
 
 if (OS_ANDROID) {

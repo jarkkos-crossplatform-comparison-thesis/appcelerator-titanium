@@ -13,6 +13,22 @@
 	color: "#000"
 }
 
+".noticeTitle": {
+	font: {
+		fontSize: "20dp"
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+}
+
+".noticeText": {	
+	font: {
+		fontSize: "16dp"
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	width: Ti.UI.FILL,
+}
+
 ".row": {
 	width: Ti.UI.FILL,
 	height: Ti.UI.SIZE
@@ -21,4 +37,13 @@
 ".widebutton": {
 	width: "70%",
 	top: 16
+}
+
+".topMargin": {
+	top: 16
+}
+
+".horizontalMargin": {
+	left: 16,
+	right: 16
 }

@@ -12,7 +12,6 @@
 				</Templates>
 				<ListSection name="items" />
 			</ListView>
-			<ActivityIndicator id="activityIndicator"></ActivityIndicator>
 		</View>
 	</Window>
 </Alloy>

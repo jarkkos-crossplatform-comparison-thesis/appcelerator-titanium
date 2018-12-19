@@ -17,22 +17,3 @@ args.loadPromiseCreator().then(
 		
 	}
 );
-
-
-/*
-var args = $.args;
-
-const itemJsonFile = Ti.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, "/listItems.json");
-const itemJsonStr = itemJsonFile.read().toString();
-const itemJson = JSON.parse(itemJsonStr);
-
-const mappedItems = _.map(itemJson, function(item) {
-	return {
-		image: { image: item.imageSrc },
-		description: { text: item.description }
-	};
-});
-
-console.log(mappedItems);
-$.itemlist.sections[0].setItems(mappedItems);  
- */

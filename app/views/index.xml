@@ -6,7 +6,7 @@
 				<ImageView image="/images/appicon.png" width="25%" height="Ti.UI.SIZE" />
 				<View layout="vertical" class="size" width="50%">
 					<Label>Titanium</Label>
-					<Label>Version 1</Label>
+					<Label>Version 2</Label>
 					<Label>Select test</Label>
 				</View>
 				<ImageView image="/images/appicon.png" width="25%" height="Ti.UI.SIZE" horizontalAlign="right" />

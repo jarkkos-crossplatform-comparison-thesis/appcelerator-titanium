@@ -1,7 +1,7 @@
 <Alloy>
 	<NavigationWindow id="navigation" platform="ios">
 	<Window class="container">
-		<ScrollView id="scroller" layout="vertical">
+		<View layout="vertical">
 			<View layout="horizontal" class="row header">
 				<ImageView image="/images/appicon.png" width="25%" height="Ti.UI.SIZE" />
 				<View layout="vertical" class="size" width="50%">
@@ -20,12 +20,12 @@
 				<Button class="widebutton" id="openVibrationLatencyBtn">Vibration latency</Button>
 				<Button class="widebutton" id="openThirdPartyNoticesBtn">Third party notices</Button>
 			</View>
-		</ScrollView>
+		</View>
 	</Window>
 	</NavigationWindow>
 	
 	<Window class="container" platform="android">
-		<ScrollView id="scroller" layout="vertical">
+		<View layout="vertical">
 			<View layout="horizontal" class="row header">
 				<ImageView image="/images/appicon.png" width="25%" height="Ti.UI.SIZE" />
 				<View layout="vertical" class="size" width="50%">
@@ -44,6 +44,6 @@
 				<Button class="widebutton" id="openVibrationLatencyBtn">Vibration latency</Button>
 				<Button class="widebutton" id="openThirdPartyNoticesBtn">Third party notices</Button>
 			</View>
-		</ScrollView>
+		</View>
 	</Window>
 </Alloy>

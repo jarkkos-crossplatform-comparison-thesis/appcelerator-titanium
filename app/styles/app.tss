@@ -47,3 +47,16 @@
 	left: 16,
 	right: 16
 }
+
+".footer": {
+	bottom: 0,
+	height: 12
+}
+
+".redBg": {
+	backgroundColor: "red"
+}
+
+".greenBg": {
+	backgroundColor: "green"
+}

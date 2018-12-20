@@ -7,5 +7,7 @@
 			<Button class="widebutton" id="incrementCounterBtn">Click me!</Button>
 			<Label id="counterLabel">Counter</Label>
 		</View>
+		
+		<View class="footer greenBg" />
 	</Window>
 </Alloy>
